@@ -62,6 +62,7 @@ Pré-requisitos: JDK 17 e MySQL.
 ```bash
 export DB_USERNAME=root
 export DB_PASSWORD=sua_senha
+export JWT_PRIVATE_KEY=file:$HOME/keys/private_key_pkcs8.pem
 # opcional: DB_URL (padrão: jdbc:mysql://localhost:3306/erp_todotcom?createDatabaseIfNotExist=true)
 
 ./mvnw spring-boot:run
